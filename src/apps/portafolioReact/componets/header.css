@@ -1,0 +1,27 @@
+.Header {
+    height: 90px;
+    width: 100%;
+    background-color: #1a1a1a;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100
+}
+.Header img {
+    width: 190px;
+} 
+.Header .navbar {
+    margin-right: 35px;
+}
+a {
+    color: white;
+    text-decoration-line: none;
+    margin: 15px;
+    font-size: 24px;
+}
+.Header .navbar a:hover {
+    color: deepskyblue;
+    text-decoration-line: underline;
+}

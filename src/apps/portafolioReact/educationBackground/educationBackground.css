@@ -1,0 +1,17 @@
+.educationBackground {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.educationBackground .infoEducation{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 30px;
+    text-align: left;
+}
+h2 {
+    font-size: 48px;
+}

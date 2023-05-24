@@ -1,0 +1,15 @@
+.tech {
+    padding: 20px;
+    width: 180px;
+}
+.tech img{
+    width: 100px;
+    height: 100px;
+}
+.tech h3 {
+    font-size: 36px;
+}
+.tech .icons {
+    width: 25px;
+    color: #fff903;
+}

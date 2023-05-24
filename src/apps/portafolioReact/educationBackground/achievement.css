@@ -1,0 +1,27 @@
+.icons {
+    color: #0a3ed9;
+    font-size: 30px;
+    margin-top: 15px;
+}
+span {
+    color: white;
+    display: inline-block
+}
+h3, h4 {
+    margin: 0px;
+}
+.achievement {
+    display: flex;
+    width: 410px;
+    height: 190px;
+    margin: 15px;
+    padding: 10px;
+}
+.achievement h3 {
+    font-size: 28px;
+}
+.achievement .info {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}

@@ -1,0 +1,201 @@
+{
+    "__version": "0.1",
+    "__description": "data.json Archivo de datos para la plantilla",
+    "contact": [
+        {
+            "type": "url",
+            "label": "Facebook",
+            "url": "https://www.facebook.com/leonel.valencia.3382"
+        },
+        {
+            "type": "url",
+            "label": "GitHub",
+            "url": "https://github.com/LeonelValencia"
+        },
+        {
+            "type": "url",
+            "label": "Linkedin",
+            "url": "https://www.linkedin.com/in/leonel-valencia-estudillo-51a553153/"
+        }
+    ],
+    "education": [
+        {
+            "date":"2019-2024",
+            "name":"Ingenieria en Sistemas Computacionales",
+            "institution":"Instituto Tecnologico de Zacatepec",
+            "extra":"Promedio de calificaciones: 92/100"
+        },
+        {
+            "date":"diciembre 2022",
+            "name":"React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
+            "institution":"Udemy",
+            "extra":"Curso en linea"
+        },
+        {
+            "date":"marzo 2023",
+            "name":"Capacitación de React",
+            "institution":"Centro de Ciencias Genomicas",
+            "extra":"Capacitacion en linea"
+        },
+        {
+            "date":"Marzo 2023 - Presente",
+            "name":"Capacitación de Python y flask",
+            "institution":"Centro de Ciencias Genomicas",
+            "extra":"Capacitacion en linea"
+        }
+    ],
+    "header":{
+        "links":[
+            {"label": "","link":"#home"},
+            {"label": "Educación","link":"#education"},
+            {"label": "Habilidades tecnicas","link":"#tecnicalSkills"},
+            {"label": "Proyectos","link":"#projects"},
+            {"label": "Contacto","link":"#contact"}
+        ],
+        "logoURl": "https://i.postimg.cc/3RzMJgNh/Text.png"
+    },
+    "homePage": {
+        "nombre": "Leonel Federico Valencia Estudillo",
+        "url_avatar": "https://media.licdn.com/dms/image/D4E03AQEUf_zo9WssMw/profile-displayphoto-shrink_800_800/0/1682558267373?e=1689811200&v=beta&t=sRysKmXtC2mtnsTGhjkl5G7Da4BMLPxmbqZpT9g2Bb0",
+        "acercaDe": "Desarrollador frontend y próximamente backend"
+    },
+    "projects": [
+        {
+            "id": "P01",
+            "name": "Taller Frontend con React",
+            "organization": "Centro Ciencias Genomicas UNAM",
+            "place": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "description": "Taller para aprender todos los conceptos que tiene react desde hooks, componentes hasta buenas practicas",
+            "comments": "Este Taller fue muy util para mi porque no conocia a React",
+            "images": [
+                {
+                    "title": "Taller Frontend con React",
+                    "url": "https://i.postimg.cc/BnHr818P/portafolio-Web.png",
+                    "alt": "Taller Frontend con React"
+                }
+            ],
+            "technologies": ["JavaScript", "React", "CodeSandbox", "GitHub"],
+            "urls":{
+                "github":"https://github.com/regulondbunam/Manual-React"
+            }
+        },
+        {
+            "id": "P02",
+            "name": "Sistema Web - Nutricion Es Mas",
+            "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "place": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "description": "Sistema web para la materia de Gestion de proyectos de software pero principalmente para nutriologos",
+            "comments": "No esta terminado, esta al 50% pero hicimos un prototipo en figma",
+            "images": [
+                {
+                    "title": "SistemaWeb-NutricionEsMas",
+                    "url": "https://i.postimg.cc/5tYTZVpM/index.png",
+                    "alt": "SistemaWeb-NutricionEsMas"
+                }
+            ],
+            "technologies": ["HTML", "PHP", "CSS", "MySQL"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/SistemaWeb-NutricionEsMas"
+            }
+        },
+        {
+            "id": "P03",
+            "name": "Temazcalli - barra con diente de leon",
+            "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "place": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "description": "Tienda online donde puedes pagar con paypal o tarjeta de debito/credito",
+            "comments": "Este tienda fue hecho para el concurso en Innovatec",
+            "images": [
+                {
+                    "title": "Temazcalli",
+                    "url": "https://i.postimg.cc/zfq6qBgJ/temazcalli.png",
+                    "alt": "Temazcalli"
+                }
+            ],
+            "technologies": ["React", "Firebase", "JavaScript"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/temazcalli_barra-dandelion",
+                "web":"https://temazcalli-1.web.app/"
+            }
+        },
+        {
+            "id": "P04",
+            "name": "Cuevana 4",
+            "organization": "Udemy",
+            "place": "Xoxocotla Morelos",
+            "description": "Pagina web con conexión a una API publica para consultar películas de TheMovieDB",
+            "comments": "sólo está disponible para dispositivos Mobiles",
+            "images": [
+                {
+                    "title": "movies page",
+                    "url": "https://i.postimg.cc/QtqhbwZb/movies-Page.png",
+                    "alt": "movies page"
+                }
+            ],
+            "technologies": ["JavaScript", "HTML", "CSS"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/curso-api-rest-javascript-practico",
+                "web":"https://leonelvalencia.github.io/curso-api-rest-javascript-practico/"
+            }
+        }
+    ],
+    "skills": {
+        "conocimientos": [
+            {   
+                "technology": "React",
+                "score":4,
+                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            },
+            {
+                "technology": "Python",
+                "score":4,
+                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+            },
+            {
+                "technology": "MySQL",
+                "score":4,
+                "urlIcon":"https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png"
+            },
+            {
+                "technology": "PostgreSQL",
+                "score":3,
+                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-postgresql-8-1175119.png"
+            },
+            {
+                "technology": "MongoDB",
+                "score":3,
+                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png"
+            },
+            {
+                "technology": "Java",
+                "score":3,
+                "urlIcon":"https://cdn-icons-png.flaticon.com/512/226/226777.png"
+            },
+            {
+                "technology": "HTML5",
+                "score":4,
+                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-html5-40-1175193.png"
+            },
+            {
+                "technology": "CSS3",
+                "score":4,
+                "urlIcon":"https://logospng.org/download/css-3/logo-css-3-1536.png"
+            },
+            {
+                "technology": "JavaScript",
+                "score":4,
+                "urlIcon":"https://www.logolynx.com/images/logolynx/54/54b5145b027a1ff11962bdf475c3fd43.png"
+            },
+            {
+                "technology": "Git",
+                "score":4,
+                "urlIcon":"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
+            },
+            {
+                "technology": "Docker",
+                "score":2,
+                "urlIcon":"https://cdn-icons-png.flaticon.com/512/919/919853.png"
+            }
+        ]
+    }
+}

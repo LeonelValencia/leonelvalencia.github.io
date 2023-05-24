@@ -1,0 +1,40 @@
+.homePage {
+    text-align: center;
+    padding-top: 120px;
+}
+.homePage h2 {
+    font-size: 60px;
+    margin: 5px;
+}
+.homePage h3 {
+    font-size: 48px;
+}
+.homePage img {
+    height: 230px;
+}
+.homePage .socialNetwork {
+    margin: 15px;
+}
+.homePage .socialNetwork #facebookIcon:hover {
+    color: #4267B2;
+}
+.homePage .socialNetwork #githubIcon:hover {
+    color: #817f7f;
+}
+.homePage .socialNetwork #linkedinIcon:hover {
+    color: #0e76a8;
+}
+.homePage .icons {
+    color: white;
+    font-size: 60px;
+}
+.btnContact {
+    margin: 35px;
+    padding: 15px;
+    display: inline-block;
+    background-color: #0a3ed9;
+    border-radius: 10px;
+}
+.btnContact:hover {
+    background-color:deepskyblue;
+}
