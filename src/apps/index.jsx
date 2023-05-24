@@ -1,11 +1,11 @@
-import { Header } from "./componets";
+import { Header } from "./components";
 import EducationBackground from "./educationBackground";
 import data from "./data.json"
 import HomePage from "./homePage";
 import Skills from "./skills";
 import Projects from "./projects";
 import ContactForm from "./ContactForm";
-import './index.css'
+import '../index.css'
 
 export default function PortafolioReact(){
     return (
