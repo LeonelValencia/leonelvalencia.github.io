@@ -72,6 +72,11 @@ import Project from "./project";
 import './projects.css'
 
 export default function Projects({projectsList = []}) {
+    /**
+     * List of components Project
+     * @type {Array<Project>} listEducations
+     * @constant
+     */
     const listProjects = projectsList.map((project) =>
         <Project key={project.id} projectObject={project}/>
     )

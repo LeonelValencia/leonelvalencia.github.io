@@ -73,6 +73,12 @@ import { Achievement } from "./achievement"
 import './educationBackground.css'
 
 export default function EducationBackground({educations}){
+    /**
+     * List of components Achievements used in the EducationBackground's component.
+     * @type {Array.<Achievement>}
+     * @name listEducations
+     * @constant
+     */
     const listEducations = educations.map((education) =>
         <Achievement key={education.name} educationObject={education}/>
     )

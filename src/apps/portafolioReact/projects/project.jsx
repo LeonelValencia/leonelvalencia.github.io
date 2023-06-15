@@ -75,6 +75,11 @@ import { TbWorldWww } from "react-icons/tb";
 import './project.css'
 
 export default function Project({projectObject = {}}) {
+    /**
+     * List of technologies used in the proyecto.
+     * @type {Array.<string>}
+     * @name listTechnologies
+     */
     let listTechnologies = projectObject.technologies.map((tech) =>
         <li key={tech}>{tech}</li>
     )

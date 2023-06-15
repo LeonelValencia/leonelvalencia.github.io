@@ -73,6 +73,11 @@ import Technology from "./Technology";
 import './skills.css'
 
 export default function Skills({knowledgeList=[]}) {
+    /**
+     * List of components Technology
+     * @type {Array.<Achievement>} listtechnologies
+     * @constant
+     */
     const listtechnologies = knowledgeList.map((technology) =>
         <Technology key={technology.technology} technologyObject={technology}/>
     )

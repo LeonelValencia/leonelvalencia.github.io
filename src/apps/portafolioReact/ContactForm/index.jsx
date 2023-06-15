@@ -105,6 +105,12 @@ export default function ContactForm() {
     const TEMPLATE_ID = process.env.REACT_APP_YOUR_TEMPLATE_ID
     const PUBLIC_KEY = process.env.REACT_APP_YOUR_PUBLIC_KEY
 
+    /**
+     * Send the form submission via email using the emailjs library.
+     * @param {Event} e - The form submission event.
+     * @throws {Error} If there is an error sending the email.
+     * @returns {void}
+     */
     const sendEmail = (e) => {
         e.preventDefault();
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
