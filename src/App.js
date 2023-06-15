@@ -1,5 +1,4 @@
-import PortafolioReact from "./apps";
-
+import PortafolioReact from "./apps/portafolioReact";
 
 function App() {
   return (
