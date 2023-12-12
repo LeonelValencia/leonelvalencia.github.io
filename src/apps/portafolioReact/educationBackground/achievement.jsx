@@ -74,8 +74,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import './achievement.css'
 
-export function Achievement({educationObject}){
-    
+export function Achievement({educationObject}) {
+    console.log(educationObject);
     return (
         <div className="achievement">
             <FontAwesomeIcon className='icons' icon={faGraduationCap} />
@@ -83,7 +83,9 @@ export function Achievement({educationObject}){
                 <h4>{educationObject.date}</h4>
                 <h3>{educationObject.name}</h3>
                 <span>{educationObject.institution}</span>
-                <span>{educationObject.extra}</span>
+                {educationObject.extra && (
+                    <a href={educationObject.extra}>Ver certificado</a>
+                )}
             </div>
         </div>
     )

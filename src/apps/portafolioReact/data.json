@@ -15,33 +15,32 @@
         {
             "type": "url",
             "label": "Linkedin",
-            "url": "https://www.linkedin.com/in/leonel-valencia-estudillo-51a553153/"
+            "url": "https://www.linkedin.com/in/leonel-federico-valencia-estudillo/"
         }
     ],
     "education": [
         {
             "date":"2019-2024",
             "name":"Ingenieria en Sistemas Computacionales",
-            "institution":"Instituto Tecnologico de Zacatepec",
-            "extra":"Promedio de calificaciones: 92/100"
+            "institution":"Instituto Tecnologico de Zacatepec"
         },
         {
-            "date":"diciembre 2022",
-            "name":"React Avanzado: Fullstack Next.js, Apollo, MongoDB y GraphQL",
-            "institution":"Udemy",
-            "extra":"Curso en linea"
+            "date":"junio 2023",
+            "name":"MongoDB AtlasAdministration",
+            "institution":"MongoDB",
+            "extra":"https://learn.mongodb.com/c/CYHhXaNNTc-Xnv0ve0x39A"
         },
         {
-            "date":"marzo 2023",
-            "name":"Capacitación de React",
-            "institution":"Centro de Ciencias Genomicas",
-            "extra":"Capacitacion en linea"
+            "date":"septiembre 2023",
+            "name":"Soporte de Tecnologías de la Información de Google",
+            "institution":"Google-Coursera",
+            "extra":"https://www.coursera.org/account/accomplishments/professional-cert/RQ7J83R99X62"
         },
         {
-            "date":"Marzo 2023 - Presente",
-            "name":"Capacitación de Python y flask",
-            "institution":"Centro de Ciencias Genomicas",
-            "extra":"Capacitacion en linea"
+            "date":"septiembre 2023",
+            "name":"Inglés Intermedio B1",
+            "institution":"Platzi",
+            "extra":"https://shre.ink/rJcd"
         }
     ],
     "header":{
@@ -56,8 +55,8 @@
     },
     "homePage": {
         "nombre": "Leonel Federico Valencia Estudillo",
-        "url_avatar": "https://media.licdn.com/dms/image/D4E03AQEUf_zo9WssMw/profile-displayphoto-shrink_800_800/0/1682558267373?e=1689811200&v=beta&t=sRysKmXtC2mtnsTGhjkl5G7Da4BMLPxmbqZpT9g2Bb0",
-        "acercaDe": "Desarrollador frontend y próximamente backend"
+        "url_avatar": "https://i.postimg.cc/rs08rjdv/foto-de-perfil-removebg-preview.png",
+        "acercaDe": "Data Scientist"
     },
     "projects": [
         {
@@ -81,75 +80,75 @@
         },
         {
             "id": "P02",
-            "name": "Sistema Web - Nutricion Es Mas",
+            "name": "Prediccion de cancer",
             "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
             "place": "Tecnologico Nacional de Mexico campus Zacatepec",
-            "description": "Sistema web para la materia de Gestion de proyectos de software pero principalmente para nutriologos",
-            "comments": "No esta terminado, esta al 50% pero hicimos un prototipo en figma",
+            "description": "Es un modelo de aprendizaje automático que se utiliza para predecir la presencia de cáncer en diferentes partes del cuerpo, como el hígado, la piel, la mama, la vejiga, el glioblastoma y los pulmones",
+            "comments": "Proyecto para la materia de Analitica Inteligente de Datos",
             "images": [
                 {
-                    "title": "SistemaWeb-NutricionEsMas",
-                    "url": "https://i.postimg.cc/5tYTZVpM/index.png",
-                    "alt": "SistemaWeb-NutricionEsMas"
+                    "title": "prediccion de cancer",
+                    "url": "https://github.com/LeonelValencia/prediccion-de-cancer-higado-piel-mama-vejiga-glioblastoma-pulmon/assets/103957744/22f17622-c35e-49f6-bb04-bc99c68750a7",
+                    "alt": "prediccion de cancer"
                 }
             ],
-            "technologies": ["HTML", "PHP", "CSS", "MySQL"],
+            "technologies": ["Python", "Sklearn", "Streamlit"],
             "urls":{
-                "github":"https://github.com/LeonelValencia/SistemaWeb-NutricionEsMas"
+                "github":"https://github.com/LeonelValencia/prediccion-de-cancer-higado-piel-mama-vejiga-glioblastoma-pulmon",
+                "web":"https://prediccion-de-cancer.streamlit.app/"
             }
         },
         {
             "id": "P03",
-            "name": "Temazcalli - barra con diente de leon",
+            "name": "clasificador perros y gatos",
             "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
             "place": "Tecnologico Nacional de Mexico campus Zacatepec",
-            "description": "Tienda online donde puedes pagar con paypal o tarjeta de debito/credito",
-            "comments": "Este tienda fue hecho para el concurso en Innovatec",
+            "description": "Se entrena el modelo de inteligencia artificial. Puede utilizarse en el celular, solo apunta la cámara al perro o gato que quieres clasificar (puede ser una imagen de la computadora, una foto, o uno de verdad)",
+            "comments": "Lo hace todo en el explorador utilizando Tensorflow.js.",
             "images": [
                 {
-                    "title": "Temazcalli",
-                    "url": "https://i.postimg.cc/zfq6qBgJ/temazcalli.png",
-                    "alt": "Temazcalli"
+                    "title": "clasificador perros y gatos",
+                    "url": "https://github.com/LeonelValencia/clasificador-perros-gatos/assets/103957744/a947f7f9-0e53-40f7-b68e-67b025ece40c",
+                    "alt": "clasificador perros y gatos"
                 }
             ],
-            "technologies": ["React", "Firebase", "JavaScript"],
+            "technologies": ["Python", "Tensorflow"],
             "urls":{
-                "github":"https://github.com/LeonelValencia/temazcalli_barra-dandelion",
-                "web":"https://temazcalli-1.web.app/"
+                "github":"https://github.com/LeonelValencia/clasificador-perros-gatos/tree/main",
+                "web":"https://leonelvalencia.github.io/clasificador-perros-gatos/"
             }
         },
         {
             "id": "P04",
-            "name": "Cuevana 4",
-            "organization": "Udemy",
-            "place": "Xoxocotla Morelos",
-            "description": "Pagina web con conexión a una API publica para consultar películas de TheMovieDB",
-            "comments": "sólo está disponible para dispositivos Mobiles",
+            "name": "RedColab",
+            "organization": "departamento de estudios de posgrado e investigación",
+            "place": "Instituto Tecnológico de Zacatepec",
+            "description": "Participe en este proyecto como desarrollador frontend y backend para el servicio de GraphQL, el proyecto consiste en una red social para los alumnos del instituto tecnologico de zacatepec, en la cual pueden compartir sus proyectos, eventos, noticias, etc. contacto ( contacto@redcolab.com )",
+            "comments": "contacto ( contacto@redcolab.com )",
             "images": [
                 {
-                    "title": "movies page",
-                    "url": "https://i.postimg.cc/QtqhbwZb/movies-Page.png",
-                    "alt": "movies page"
+                    "title": "RedColab",
+                    "url": "https://i.postimg.cc/FFY2b7Rg/redcolab.png",
+                    "alt": "RedColab"
                 }
             ],
-            "technologies": ["JavaScript", "HTML", "CSS"],
+            "technologies": ["MongoDB", "React", "Material-UI", "GraphQL", "Apollo"],
             "urls":{
-                "github":"https://github.com/LeonelValencia/curso-api-rest-javascript-practico",
-                "web":"https://leonelvalencia.github.io/curso-api-rest-javascript-practico/"
+                "web":"https://redcolab.com/"
             }
         }
     ],
     "skills": {
         "conocimientos": [
-            {   
-                "technology": "React",
-                "score":4,
-                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-            },
             {
                 "technology": "Python",
                 "score":4,
                 "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+            },
+            {
+                "technology": "MongoDB",
+                "score":3,
+                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png"
             },
             {
                 "technology": "MySQL",
@@ -162,9 +161,19 @@
                 "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-postgresql-8-1175119.png"
             },
             {
-                "technology": "MongoDB",
+                "technology": "Hadoop",
                 "score":3,
-                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png"
+                "urlIcon":"https://www.pnguniverse.com/wp-content/uploads/2021/03/Hadoop-1280x959.png"
+            },
+            {
+                "technology": "GraphQL",
+                "score":3,
+                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1024px-GraphQL_Logo.svg.png?20161105194737"
+            },
+            {   
+                "technology": "React",
+                "score":4,
+                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
             },
             {
                 "technology": "Java",
@@ -172,29 +181,14 @@
                 "urlIcon":"https://cdn-icons-png.flaticon.com/512/226/226777.png"
             },
             {
-                "technology": "HTML5",
-                "score":4,
-                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-html5-40-1175193.png"
-            },
-            {
-                "technology": "CSS3",
-                "score":4,
-                "urlIcon":"https://logospng.org/download/css-3/logo-css-3-1536.png"
-            },
-            {
                 "technology": "JavaScript",
-                "score":4,
+                "score":3,
                 "urlIcon":"https://www.logolynx.com/images/logolynx/54/54b5145b027a1ff11962bdf475c3fd43.png"
             },
             {
                 "technology": "Git",
                 "score":4,
                 "urlIcon":"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-            },
-            {
-                "technology": "Docker",
-                "score":2,
-                "urlIcon":"https://cdn-icons-png.flaticon.com/512/919/919853.png"
             }
         ]
     }
