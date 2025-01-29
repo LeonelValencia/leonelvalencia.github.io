@@ -15,7 +15,7 @@
         {
             "type": "url",
             "label": "Linkedin",
-            "url": "https://www.linkedin.com/in/leonel-federico-valencia-estudillo/"
+            "url": "https://www.linkedin.com/in/valencialeonel"
         }
     ],
     "education": [
@@ -25,10 +25,33 @@
             "institution":"Instituto Tecnologico de Zacatepec"
         },
         {
-            "date":"junio 2023",
-            "name":"MongoDB Atlas Administration",
-            "institution":"MongoDB",
-            "extra":"https://learn.mongodb.com/c/CYHhXaNNTc-Xnv0ve0x39A"
+            "date":"2016-2019",
+            "name":"Diseño Gráfico Digital",
+            "institution":"CBTIS 223"
+        },
+        {
+            "date":"noviembre 2024",
+            "name":"AWS Certified Cloud Practitioner",
+            "institution":"AWS",
+            "extra":"https://www.credly.com/badges/ca462b6f-48a8-4740-8862-c89262c66bbc/linked_in_profile"
+        },
+        {
+            "date":"septiembre 2024",
+            "name":"AI: Desarrollo de Apps con LLMs",
+            "institution":"Platzi",
+            "extra":"https://platzi.com/p/leovale14/learning-path/13481-datos-llm/diploma/detalle/"
+        },
+        {
+            "date":"septiembre 2024",
+            "name":"Deep Learning: Procesamiento de Lenguaje Natural (NLP)",
+            "institution":"Platzi",
+            "extra":"https://platzi.com/p/leovale14/learning-path/13500-deep-learning-nlp/diploma/detalle/"
+        },
+        {
+            "date":"mayo 2024",
+            "name":"Data Scientist",
+            "institution":"Platzi",
+            "extra":"https://platzi.com/p/leovale14/learning-path/7005-ds/diploma/detalle"
         },
         {
             "date":"septiembre 2023",
@@ -40,7 +63,13 @@
             "date":"septiembre 2023",
             "name":"Inglés Intermedio B1",
             "institution":"Platzi",
-            "extra":"https://shre.ink/rJcd"
+            "extra":"https://platzi.com/p/leovale14/learning-path/8310-intermediate-core/diploma/detalle/"
+        },
+        {
+            "date":"junio 2023",
+            "name":"MongoDB Atlas Administration",
+            "institution":"MongoDB",
+            "extra":"https://learn.mongodb.com/c/CYHhXaNNTc-Xnv0ve0x39A"
         }
     ],
     "header":{
@@ -136,6 +165,63 @@
             "urls":{
                 "web":"https://redcolab.com/"
             }
+        },
+        {
+            "id": "P05",
+            "name": "Chatbot RegulonDB",
+            "organization": "Centro Ciencias Genomicas UNAM",
+            "place": "Cuernavaca, Morelos",
+            "description": "Chatbot para la pagina de regulondb",
+            "comments": "RAG usando la base de datos de regulondb",
+            "images": [
+                {
+                    "title": "chatBot RegulonDB",
+                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
+                    "alt": "chatBot RegulonDB"
+                }
+            ],
+            "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
+            "urls":{
+                "web":"https://regulondb-assistant.streamlit.app/"
+            }
+        },
+        {
+            "id": "P06",
+            "name": "Sistema de inventario y punto de venta",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Sistema de inventario, punto de venta y API",
+            "comments": "El producto es privado solo para la empresa",
+            "images": [
+                {
+                    "title": "inventario y punto de venta",
+                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
+                    "alt": "invetario y punto de venta"
+                }
+            ],
+            "technologies": ["C#", "Flask", "SQL"],
+            "urls":{
+                "web":""
+            }
+        },
+        {
+            "id": "P07",
+            "name": "Sitio web El Gabacho",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Incluye la API",
+            "comments": "Falta hacer el deploy",
+            "images": [
+                {
+                    "title": "webpage El Gabacho",
+                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
+                    "alt": "webpage El Gabacho"
+                }
+            ],
+            "technologies": ["React", "Flask", "bootstrap"],
+            "urls":{
+                "web":"https://autparteselgabacho.com.mx/"
+            }
         }
     ],
     "skills": {
@@ -146,14 +232,19 @@
                 "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
             },
             {
+                "technology": "AWS",
+                "score":4,
+                "urlIcon":"https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
+            },
+            {
                 "technology": "MongoDB",
-                "score":3,
+                "score":4,
                 "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png"
             },
             {
                 "technology": "MySQL",
                 "score":4,
-                "urlIcon":"https://cdn.icon-icons.com/icons2/1381/PNG/512/mysqlworkbench_93532.png"
+                "urlIcon":"https://images.sftcdn.net/images/t_app-icon-s/p/917c77e8-96d1-11e6-8453-00163ed833e7/3780880766/mysql-com-icon.png"
             },
             {
                 "technology": "PostgreSQL",
@@ -182,7 +273,7 @@
             },
             {
                 "technology": "JavaScript",
-                "score":3,
+                "score":4,
                 "urlIcon":"https://www.logolynx.com/images/logolynx/54/54b5145b027a1ff11962bdf475c3fd43.png"
             },
             {
