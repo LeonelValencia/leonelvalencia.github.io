@@ -12,7 +12,6 @@ h3, h4 {
 }
 .achievement {
     display: flex;
-    width: 410px;
     height: 190px;
     margin: 15px;
     padding: 10px;

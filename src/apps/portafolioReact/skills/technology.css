@@ -1,6 +1,7 @@
 .tech {
+    text-align: center;
+    align-items: center;
     padding: 20px;
-    width: 180px;
 }
 .tech img{
     width: 100px;

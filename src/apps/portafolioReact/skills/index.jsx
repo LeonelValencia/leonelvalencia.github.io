@@ -68,9 +68,8 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
-
+import { Container, Row, Col } from 'react-bootstrap';
 import Technology from "./Technology";
-import './skills.css'
 
 export default function Skills({knowledgeList=[]}) {
     /**
@@ -79,14 +78,16 @@ export default function Skills({knowledgeList=[]}) {
      * @constant
      */
     const listtechnologies = knowledgeList.map((technology) =>
-        <Technology key={technology.technology} technologyObject={technology}/>
+        <Col key={technology.technology} xs={6} md={4} lg={2}>
+            <Technology key={technology.technology} technologyObject={technology}/>
+        </Col>
     )
     return(
-        <div className="tecnicalSkills" id="tecnicalSkills">
+        <Container className="tecnicalSkills" id="tecnicalSkills">
             <h2>Habilidades Tecnicas</h2>
-            <div className="infoSkills">
+            <Row className="infoSkills">
                 {listtechnologies}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 }

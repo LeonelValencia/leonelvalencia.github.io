@@ -67,9 +67,8 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
-
+import { Container, Row, Col } from 'react-bootstrap';
 import Project from "./project";
-import './projects.css'
 
 export default function Projects({projectsList = []}) {
     /**
@@ -78,14 +77,16 @@ export default function Projects({projectsList = []}) {
      * @constant
      */
     const listProjects = projectsList.map((project) =>
-        <Project key={project.id} projectObject={project}/>
+        <Col key={project.id} xs={12} md={12} lg={6}>
+            <Project key={project.id} projectObject={project}/>
+        </Col>
     )
     return(
-        <div className="projects" id="projects">
+        <Container className="projects" id="projects">
             <h2>Proyectos</h2>
-            <div className="infoProject">
+            <Row className="infoProject">
                 {listProjects}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 }

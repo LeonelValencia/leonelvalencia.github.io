@@ -69,7 +69,8 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
-
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
 import { AiFillGithub } from "react-icons/ai";
 import { TbWorldWww } from "react-icons/tb";
 import './project.css'
@@ -84,9 +85,9 @@ export default function Project({projectObject = {}}) {
         <li key={tech}>{tech}</li>
     )
     return (
-        <div className="project">
-            <img src={projectObject.images[0].url} alt={projectObject.images[0].alt} />
-            <div className='infoProject'>
+        <Card className="project">
+            <Card.Img src={projectObject.images[0].url} alt={projectObject.images[0].alt} />
+            <Row className='infoProject'>
                 <h3>{projectObject.name}</h3>
                 <h4>{projectObject.organization}</h4>
                 <span><b>Descripción: </b>{projectObject.description}</span>
@@ -97,7 +98,7 @@ export default function Project({projectObject = {}}) {
                     <a href={projectObject.urls.github}><AiFillGithub/></a>
                     {projectObject.urls.web && <a href={projectObject.urls.web}><TbWorldWww/></a>}
                 </div>
-            </div>
-        </div>
+            </Row>
+        </Card>
     )
 }

@@ -75,7 +75,6 @@ import { faGraduationCap } from '@fortawesome/free-solid-svg-icons'
 import './achievement.css'
 
 export function Achievement({educationObject}) {
-    console.log(educationObject);
     return (
         <div className="achievement">
             <FontAwesomeIcon className='icons' icon={faGraduationCap} />

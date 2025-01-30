@@ -69,7 +69,7 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
-
+import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook } from '@fortawesome/free-brands-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -78,7 +78,7 @@ import './HomePage.css'
 
 export default function HomePage ({aboutMeObject={},contactList=[],linkFormContact=''}) {
     return ( 
-        <div className='homePage' id='home'>
+        <Container className='homePage' id='home'>
             <div className="avatarName">
                 <img src={aboutMeObject.url_avatar} alt="avatar" />
                 <h2>Hola soy {aboutMeObject.nombre}</h2>
@@ -96,6 +96,6 @@ export default function HomePage ({aboutMeObject={},contactList=[],linkFormConta
                 </a>
             </div>
             <a className='btnContact' href={linkFormContact}>Contactame</a>
-        </div>
+        </Container>
     );
 }

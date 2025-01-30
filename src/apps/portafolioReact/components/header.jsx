@@ -68,18 +68,26 @@ RegulonDB Team:
 */
 
 import './header.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 export default function Header({links = [],logo = ""}){
     return (
-        <div className="Header">
-            <a href={links[0].link}>
-                <img src={logo} alt={links[0].label} />
-            </a>
-            <div className='navbar'>
-                {links.map((link) => (
-                    <a href={link.link} key={link.label}>{link.label}</a>
-                ))}
-            </div>
-        </div>
+        <Navbar expand="lg" bg="dark" data-bs-theme="dark" className="bg-body-tertiary fixed-top">
+            <Container fluid>
+                <Navbar.Brand href={links[0].link}>
+                    <img src={logo} alt={links[0].label} with="190px" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbar-nav" />
+                <Navbar.Collapse id="navbar-nav">
+                <Nav className="me-auto">
+                    {links.map((link) => (
+                        <Nav.Link href={link.link} key={link.label}>{link.label}</Nav.Link>
+                    ))}
+                </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     )
 }

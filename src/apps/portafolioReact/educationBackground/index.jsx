@@ -68,9 +68,9 @@ Achievement component: It is imported from "./achievement" and is used to render
 |        |             |          |                                |
 
 */
-
+import { Container, Row, Col } from 'react-bootstrap';
 import { Achievement } from "./achievement"
-import './educationBackground.css'
+// import './educationBackground.css'
 
 export default function EducationBackground({educations}){
     /**
@@ -80,14 +80,16 @@ export default function EducationBackground({educations}){
      * @constant
      */
     const listEducations = educations.map((education) =>
-        <Achievement key={education.name} educationObject={education}/>
+        <Col key={education.name} xs={12} md={6} lg={4}>
+            <Achievement key={education.name} educationObject={education}/>
+        </Col>
     )
     return(
-        <div className="educationBackground" id="education">
+        <Container className="educationBackground" id="education">
             <h2>Educación</h2>
-            <div className="infoEducation">
+            <Row className="infoEducation">
                 {listEducations}
-            </div>
-        </div>
+            </Row>
+        </Container>
     )
 }
