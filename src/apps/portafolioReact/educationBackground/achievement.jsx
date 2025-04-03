@@ -81,9 +81,9 @@ export function Achievement({educationObject}) {
             <div className="info">
                 <h4>{educationObject.date}</h4>
                 <h3>{educationObject.name}</h3>
-                <span>{educationObject.institution}</span>
-                {educationObject.extra && (
-                    <a href={educationObject.extra}>Ver certificado</a>
+                <h5 className="institution">{educationObject.institution}</h5>
+                {educationObject.especialty && (
+                    <span>Especialidad: {educationObject.especialty}</span>
                 )}
             </div>
         </div>

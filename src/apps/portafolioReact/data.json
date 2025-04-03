@@ -1,34 +1,7 @@
 {
     "__version": "0.1",
     "__description": "data.json Archivo de datos para la plantilla",
-    "contact": [
-        {
-            "type": "url",
-            "label": "Facebook",
-            "url": "https://www.facebook.com/leonel.valencia.3382"
-        },
-        {
-            "type": "url",
-            "label": "GitHub",
-            "url": "https://github.com/LeonelValencia"
-        },
-        {
-            "type": "url",
-            "label": "Linkedin",
-            "url": "https://www.linkedin.com/in/valencialeonel"
-        }
-    ],
-    "education": [
-        {
-            "date":"2019-2024",
-            "name":"Ingenieria en Sistemas Computacionales",
-            "institution":"Instituto Tecnologico de Zacatepec"
-        },
-        {
-            "date":"2016-2019",
-            "name":"Diseño Gráfico Digital",
-            "institution":"CBTIS 223"
-        },
+    "certifications": [
         {
             "date":"noviembre 2024",
             "name":"AWS Certified Cloud Practitioner",
@@ -72,6 +45,95 @@
             "extra":"https://learn.mongodb.com/c/CYHhXaNNTc-Xnv0ve0x39A"
         }
     ],
+    "contact": [
+        {
+            "type": "url",
+            "label": "Facebook",
+            "url": "https://www.facebook.com/leonel.valencia.3382"
+        },
+        {
+            "type": "url",
+            "label": "GitHub",
+            "url": "https://github.com/LeonelValencia"
+        },
+        {
+            "type": "url",
+            "label": "Linkedin",
+            "url": "https://www.linkedin.com/in/valencialeonel"
+        }
+    ],
+    "education": [
+        {
+            "date":"2019-2024",
+            "name":"Ingeniería en Sistemas Computacionales",
+            "institution":"Instituto Tecnologico de Zacatepec",
+            "especialty":"Ciencia de datos para la toma de deciciones"
+        },
+        {
+            "date":"2016-2019",
+            "name":"Diseño Gráfico Digital",
+            "institution":"CBTIS 223"
+        }
+    ],
+    "experiences": [
+        {
+            "id": "P05",
+            "name": "Chatbot RegulonDB",
+            "organization": "Centro Ciencias Genomicas UNAM",
+            "place": "Cuernavaca, Morelos",
+            "description": "Chatbot para la pagina de regulondb",
+            "comments": "RAG usando la base de datos de regulondb",
+            "images": [
+                {
+                    "title": "chatBot RegulonDB",
+                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
+                    "alt": "chatBot RegulonDB"
+                }
+            ],
+            "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
+            "urls":{
+                "web":"https://regulondb-assistant.streamlit.app/"
+            }
+        },
+        {
+            "id": "P06",
+            "name": "Sistema de inventario y punto de venta",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Sistema de inventario, punto de venta y API",
+            "comments": "El producto es privado solo para la empresa",
+            "images": [
+                {
+                    "title": "inventario y punto de venta",
+                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
+                    "alt": "invetario y punto de venta"
+                }
+            ],
+            "technologies": ["C#", "Flask", "SQL"],
+            "urls":{
+                "web":""
+            }
+        },
+        {
+            "id": "P07",
+            "name": "Sitio web El Gabacho",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Incluye la API",
+            "comments": "Falta hacer el deploy",
+            "images": [
+                {
+                    "title": "webpage El Gabacho",
+                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
+                    "alt": "webpage El Gabacho"
+                }
+            ],
+            "technologies": ["React", "Flask", "bootstrap"],
+            "urls":{
+                "web":"https://autparteselgabacho.com.mx/"
+            }
+        }
+    ],
     "header":{
         "links":[
             {"label": "","link":"#home"},
@@ -85,7 +147,7 @@
     "homePage": {
         "nombre": "Leonel Federico Valencia Estudillo",
         "url_avatar": "https://i.postimg.cc/rs08rjdv/foto-de-perfil-removebg-preview.png",
-        "acercaDe": "Data Scientist"
+        "roles": ["Data analyst", "Data engineer","Software developer"]
     },
     "projects": [
         {
@@ -164,63 +226,6 @@
             "technologies": ["MongoDB", "React", "Material-UI", "GraphQL", "Apollo"],
             "urls":{
                 "web":"https://redcolab.com/"
-            }
-        },
-        {
-            "id": "P05",
-            "name": "Chatbot RegulonDB",
-            "organization": "Centro Ciencias Genomicas UNAM",
-            "place": "Cuernavaca, Morelos",
-            "description": "Chatbot para la pagina de regulondb",
-            "comments": "RAG usando la base de datos de regulondb",
-            "images": [
-                {
-                    "title": "chatBot RegulonDB",
-                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
-                    "alt": "chatBot RegulonDB"
-                }
-            ],
-            "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
-            "urls":{
-                "web":"https://regulondb-assistant.streamlit.app/"
-            }
-        },
-        {
-            "id": "P06",
-            "name": "Sistema de inventario y punto de venta",
-            "organization": "Autopartes y Cristales El Gabacho",
-            "place": "Xoxocotla, Morelos",
-            "description": "Sistema de inventario, punto de venta y API",
-            "comments": "El producto es privado solo para la empresa",
-            "images": [
-                {
-                    "title": "inventario y punto de venta",
-                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
-                    "alt": "invetario y punto de venta"
-                }
-            ],
-            "technologies": ["C#", "Flask", "SQL"],
-            "urls":{
-                "web":""
-            }
-        },
-        {
-            "id": "P07",
-            "name": "Sitio web El Gabacho",
-            "organization": "Autopartes y Cristales El Gabacho",
-            "place": "Xoxocotla, Morelos",
-            "description": "Incluye la API",
-            "comments": "Falta hacer el deploy",
-            "images": [
-                {
-                    "title": "webpage El Gabacho",
-                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
-                    "alt": "webpage El Gabacho"
-                }
-            ],
-            "technologies": ["React", "Flask", "bootstrap"],
-            "urls":{
-                "web":"https://autparteselgabacho.com.mx/"
             }
         }
     ],

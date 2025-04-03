@@ -69,21 +69,32 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
+import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
-import { faGithub } from '@fortawesome/free-brands-svg-icons'
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './HomePage.css'
 
 export default function HomePage ({aboutMeObject={},contactList=[],linkFormContact=''}) {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => 
+                (prevIndex + 1) % aboutMeObject.roles.length
+            );
+        }, 3000);
+
+        return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+    }, [aboutMeObject.roles.length]);
+    
     return ( 
         <Container className='homePage' id='home'>
             <div className="avatarName">
                 <img src={aboutMeObject.url_avatar} alt="avatar" />
                 <h2>Hola soy {aboutMeObject.nombre}</h2>
             </div>
-            <h3>{aboutMeObject.acercaDe}</h3>
+            <h3>{aboutMeObject.roles[currentIndex]}</h3>
             <div className="socialNetwork">
                 <a href={contactList[0].url}>
                     <FontAwesomeIcon className='icons' icon={faFacebook} id='facebookIcon'/>

@@ -80,7 +80,7 @@ export default function EducationBackground({educations}){
      * @constant
      */
     const listEducations = educations.map((education) =>
-        <Col key={education.name} xs={12} md={6} lg={4}>
+        <Col key={education.name} xs={12} md={6} lg={6}>
             <Achievement key={education.name} educationObject={education}/>
         </Col>
     )
