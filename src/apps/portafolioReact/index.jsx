@@ -77,7 +77,6 @@ index.css - CSS file for styling the PortafolioReact component
 import { Header } from "./components";
 import Certifications from "./certifications";
 import EducationBackground from "./educationBackground";
-import Experiences from "./experience";
 import data from "./data.json"
 import HomePage from "./homePage";
 import Skills from "./skills";
@@ -92,7 +91,6 @@ export default function PortafolioReact(){
             <HomePage aboutMeObject={data.homePage} contactList={data.contact} linkFormContact={data.header.links[4].link}/>
             <EducationBackground educations={data.education}/>
             <Skills knowledgeList={data.skills.conocimientos}/>
-            <Experiences experiencesList={data.experiences}/>
             <Projects projectsList={data.projects}/>
             <Certifications certifications={data.certifications}/>
             <ContactForm />

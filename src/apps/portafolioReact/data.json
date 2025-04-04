@@ -3,6 +3,18 @@
     "__description": "data.json Archivo de datos para la plantilla",
     "certifications": [
         {
+            "date":"marzo 2025",
+            "name":"Curso de Databricks: Arquitectura Delta Lake",
+            "institution":"Platzi",
+            "extra":"https://platzi.com/p/leovale14/curso/9540-databricks/diploma/detalle/"
+        },
+        {
+            "date":"marzo 2025",
+            "name":"Curso de Fundamentos de Spark para Big Data",
+            "institution":"Platzi",
+            "extra":"https://platzi.com/p/leovale14/curso/2045-spark/diploma/detalle/"
+        },
+        {
             "date":"noviembre 2024",
             "name":"AWS Certified Cloud Practitioner",
             "institution":"AWS",
@@ -27,22 +39,22 @@
             "extra":"https://platzi.com/p/leovale14/learning-path/7005-ds/diploma/detalle"
         },
         {
-            "date":"septiembre 2023",
-            "name":"Soporte de Tecnologías de la Información de Google",
-            "institution":"Google-Coursera",
-            "extra":"https://www.coursera.org/account/accomplishments/professional-cert/RQ7J83R99X62"
-        },
-        {
-            "date":"septiembre 2023",
-            "name":"Inglés Intermedio B1",
+            "date":"agosto 2023",
+            "name":"Curso de Análisis de Datos con Power BI",
             "institution":"Platzi",
-            "extra":"https://platzi.com/p/leovale14/learning-path/8310-intermediate-core/diploma/detalle/"
+            "extra":"https://platzi.com/p/leovale14/curso/2676-powerbi/diploma/detalle/"
         },
         {
             "date":"junio 2023",
             "name":"MongoDB Atlas Administration",
             "institution":"MongoDB",
             "extra":"https://learn.mongodb.com/c/CYHhXaNNTc-Xnv0ve0x39A"
+        },
+        {
+            "date":"mayo 2022",
+            "name":"Soporte de Tecnologías de la Información de Google",
+            "institution":"Google-Coursera",
+            "extra":"https://www.coursera.org/account/accomplishments/professional-cert/RQ7J83R99X62"
         }
     ],
     "contact": [
@@ -73,65 +85,6 @@
             "date":"2016-2019",
             "name":"Diseño Gráfico Digital",
             "institution":"CBTIS 223"
-        }
-    ],
-    "experiences": [
-        {
-            "id": "P05",
-            "name": "Chatbot RegulonDB",
-            "organization": "Centro Ciencias Genomicas UNAM",
-            "place": "Cuernavaca, Morelos",
-            "description": "Chatbot para la pagina de regulondb",
-            "comments": "RAG usando la base de datos de regulondb",
-            "images": [
-                {
-                    "title": "chatBot RegulonDB",
-                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
-                    "alt": "chatBot RegulonDB"
-                }
-            ],
-            "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
-            "urls":{
-                "web":"https://regulondb-assistant.streamlit.app/"
-            }
-        },
-        {
-            "id": "P06",
-            "name": "Sistema de inventario y punto de venta",
-            "organization": "Autopartes y Cristales El Gabacho",
-            "place": "Xoxocotla, Morelos",
-            "description": "Sistema de inventario, punto de venta y API",
-            "comments": "El producto es privado solo para la empresa",
-            "images": [
-                {
-                    "title": "inventario y punto de venta",
-                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
-                    "alt": "invetario y punto de venta"
-                }
-            ],
-            "technologies": ["C#", "Flask", "SQL"],
-            "urls":{
-                "web":""
-            }
-        },
-        {
-            "id": "P07",
-            "name": "Sitio web El Gabacho",
-            "organization": "Autopartes y Cristales El Gabacho",
-            "place": "Xoxocotla, Morelos",
-            "description": "Incluye la API",
-            "comments": "Falta hacer el deploy",
-            "images": [
-                {
-                    "title": "webpage El Gabacho",
-                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
-                    "alt": "webpage El Gabacho"
-                }
-            ],
-            "technologies": ["React", "Flask", "bootstrap"],
-            "urls":{
-                "web":"https://autparteselgabacho.com.mx/"
-            }
         }
     ],
     "header":{
@@ -227,13 +180,70 @@
             "urls":{
                 "web":"https://redcolab.com/"
             }
+        },
+        {
+            "id": "P05",
+            "name": "Chatbot RegulonDB",
+            "organization": "Centro Ciencias Genomicas UNAM",
+            "place": "Cuernavaca, Morelos",
+            "description": "Chatbot para la pagina de regulondb",
+            "comments": "RAG usando la base de datos de regulondb",
+            "images": [
+                {
+                    "title": "chatBot RegulonDB",
+                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
+                    "alt": "chatBot RegulonDB"
+                }
+            ],
+            "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
+            "urls":{
+                "web":"https://regulondb-assistant.streamlit.app/"
+            }
+        },
+        {
+            "id": "P06",
+            "name": "Sistema de inventario y punto de venta",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Sistema de inventario, punto de venta y API",
+            "comments": "El producto es privado solo para la empresa",
+            "images": [
+                {
+                    "title": "inventario y punto de venta",
+                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
+                    "alt": "invetario y punto de venta"
+                }
+            ],
+            "technologies": ["C#", "Flask", "SQL"],
+            "urls":{
+                "web":""
+            }
+        },
+        {
+            "id": "P07",
+            "name": "Sitio web El Gabacho",
+            "organization": "Autopartes y Cristales El Gabacho",
+            "place": "Xoxocotla, Morelos",
+            "description": "Incluye la API",
+            "comments": "Falta hacer el deploy",
+            "images": [
+                {
+                    "title": "webpage El Gabacho",
+                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
+                    "alt": "webpage El Gabacho"
+                }
+            ],
+            "technologies": ["React", "Flask", "bootstrap"],
+            "urls":{
+                "web":"https://autparteselgabacho.com.mx/"
+            }
         }
     ],
     "skills": {
         "conocimientos": [
             {
                 "technology": "Python",
-                "score":4,
+                "score":5,
                 "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
             },
             {
@@ -248,28 +258,48 @@
             },
             {
                 "technology": "MySQL",
-                "score":4,
+                "score":5,
                 "urlIcon":"https://images.sftcdn.net/images/t_app-icon-s/p/917c77e8-96d1-11e6-8453-00163ed833e7/3780880766/mysql-com-icon.png"
             },
             {
                 "technology": "PostgreSQL",
-                "score":3,
+                "score":4,
                 "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-postgresql-8-1175119.png"
             },
             {
-                "technology": "Hadoop",
-                "score":3,
-                "urlIcon":"https://www.pnguniverse.com/wp-content/uploads/2021/03/Hadoop-1280x959.png"
+                "technology": "Spark",
+                "score":4,
+                "urlIcon":"https://idroot.us/wp-content/uploads/2018/01/apache-spark-logo-300x160.png"
+            },
+            {
+                "technology": "Databricks",
+                "score":4,
+                "urlIcon":"https://avatars.githubusercontent.com/u/4998052?s=200&v=4"
+            },
+            {
+                "technology": "Airflow",
+                "score":4,
+                "urlIcon":"https://media.zeemly.com/zeemly/product/apache-airflow.png"
+            },
+            {
+                "technology": "Power BI",
+                "score":4,
+                "urlIcon":"https://cdn.freelogovectors.net/wp-content/uploads/2023/11/power-bi-logo-freelogovectors.net_.png"
+            },
+            {
+                "technology": "Tableau",
+                "score":4,
+                "urlIcon":"https://images.seeklogo.com/logo-png/38/2/tableau-software-logo-png_seeklogo-386611.png"
             },
             {
                 "technology": "GraphQL",
                 "score":3,
                 "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1024px-GraphQL_Logo.svg.png?20161105194737"
             },
-            {   
-                "technology": "React",
+            {
+                "technology": "C#",
                 "score":4,
-                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+                "urlIcon":"https://bayanbox.ir/view/7076036280111797220/csharp-logo.png"
             },
             {
                 "technology": "Java",
@@ -279,7 +309,12 @@
             {
                 "technology": "JavaScript",
                 "score":4,
-                "urlIcon":"https://www.logolynx.com/images/logolynx/54/54b5145b027a1ff11962bdf475c3fd43.png"
+                "urlIcon":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
+            },
+            {   
+                "technology": "React",
+                "score":4,
+                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
             },
             {
                 "technology": "Git",

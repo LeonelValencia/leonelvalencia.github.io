@@ -1,0 +1,8 @@
+.button-container {
+    text-align: center;
+    margin: 10px; 
+}
+
+.button-container Button {
+    display: block;
+}

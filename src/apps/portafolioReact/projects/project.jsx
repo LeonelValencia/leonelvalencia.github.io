@@ -69,13 +69,26 @@ RegulonDB Team:
 |        |             |          |                                |
 
 */
+import { useState, useRef, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
+import Button from 'react-bootstrap/Button';
 import { AiFillGithub } from "react-icons/ai";
 import { TbWorldWww } from "react-icons/tb";
 import './project.css'
 
 export default function Project({projectObject = {}}) {
+    const [expanded, setExpanded] = useState(false);
+    const [overflow, setOverflow] = useState(false);
+    const contentRef = useRef(null);
+    
+    // Check if content overflows
+    useEffect(() => {
+        if (contentRef.current) {
+            const isOverflowing = contentRef.current.scrollHeight > contentRef.current.clientHeight;
+            setOverflow(isOverflowing);
+        }
+    }, [projectObject]);
     /**
      * List of technologies used in the proyecto.
      * @type {Array.<string>}
@@ -83,21 +96,42 @@ export default function Project({projectObject = {}}) {
      */
     let listTechnologies = projectObject.technologies.map((tech) =>
         <li key={tech}>{tech}</li>
-    )
+    );
+    const toggleExpanded = () => {
+        setExpanded(!expanded);
+    };
+
     return (
         <Card className="project">
-            <Card.Img src={projectObject.images[0].url} alt={projectObject.images[0].alt} />
-            <Row className='infoProject'>
-                <h3>{projectObject.name}</h3>
-                <h4>{projectObject.organization}</h4>
-                <span><b>Descripción: </b>{projectObject.description}</span>
-                <span>Tecnologias usadas:</span>
-                <ul>{listTechnologies}</ul>
-                <div className="links">
-                    <span>Links:</span>
-                    <a href={projectObject.urls.github}><AiFillGithub/></a>
-                    {projectObject.urls.web && <a href={projectObject.urls.web}><TbWorldWww/></a>}
+            <div className="image-container">
+                <Card.Img src={projectObject.images[0].url} alt={projectObject.images[0].alt} />
+            </div>
+            <Row className={`infoProject ${expanded ? 'expanded' : ''}`}>
+                <div className="info-content" ref={contentRef}>
+                    <h3>{projectObject.name}</h3>
+                    <h4>{projectObject.organization}</h4>
+                    <span>{projectObject.description}</span>
+                    <div className="technologies">
+                        <span>Skills:</span>
+                        <ul>{listTechnologies}</ul>
+                    </div>
+                    {projectObject.urls &&
+                        <div className="links">
+                            <span>Links:</span>
+                            {projectObject.urls.github && <a href={projectObject.urls.github}><AiFillGithub/></a>}
+                            {projectObject.urls.web && <a href={projectObject.urls.web}><TbWorldWww/></a>}
+                        </div>
+                    }
                 </div>
+                {overflow && (
+                    <Button 
+                        className="read-more-btn" 
+                        variant="link" 
+                        onClick={toggleExpanded}
+                    >
+                        {expanded ? 'Show less' : 'Read more'}
+                    </Button>
+                )}
             </Row>
         </Card>
     )
