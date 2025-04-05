@@ -85,14 +85,14 @@ export default function HomePage ({aboutMeObject={},contactList=[],linkFormConta
             );
         }, 3000);
 
-        return () => clearInterval(interval); // Limpia el intervalo al desmontar el componente
+        return () => clearInterval(interval);
     }, [aboutMeObject.roles.length]);
     
     return ( 
         <Container className='homePage' id='home'>
             <div className="avatarName">
                 <img src={aboutMeObject.url_avatar} alt="avatar" />
-                <h2>Hola soy {aboutMeObject.nombre}</h2>
+                <h2>{aboutMeObject.nombre}</h2>
             </div>
             <h3>{aboutMeObject.roles[currentIndex]}</h3>
             <div className="socialNetwork">

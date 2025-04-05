@@ -87,18 +87,41 @@
             "institution":"CBTIS 223"
         }
     ],
+    "experiences": [
+        {
+            "date":"jul/2024 - ene/2025",
+            "position":"Desarrollador Backend",
+            "organization":"Autopartes y Cristales El Gabacho",
+            "responsabilities":[
+                "Desarrollo de un sistema de inventario y punto de venta",
+                "Desarrollo de un sitio web para la empresa",
+                "Desarrollo de una API para el sistema de inventario y punto de venta"
+            ]
+        },
+        {
+            "date":"ene/2024 - jul/2024",
+            "position":"Practicante en el área de desarrollo de software",
+            "organization":"Centro Ciencias Genomicas UNAM",
+            "responsabilities":[
+                "Desarrollo de un chatbot para RegulonDB usando como caso de estudio la colección de promotores",
+                "Implementé una interfaz web para usar el modelo con RAG usando Langchain"
+            ]
+        }
+    ],
     "header":{
         "links":[
             {"label": "","link":"#home"},
+            {"label": "Experiencia","link":"#experiences"},
             {"label": "Educación","link":"#education"},
             {"label": "Habilidades tecnicas","link":"#tecnicalSkills"},
             {"label": "Proyectos","link":"#projects"},
+            {"label": "Certificaciones","link":"#certifications"},
             {"label": "Contacto","link":"#contact"}
         ],
         "logoURl": "https://i.postimg.cc/3RzMJgNh/Text.png"
     },
     "homePage": {
-        "nombre": "Leonel Federico Valencia Estudillo",
+        "nombre": "Leonel Valencia",
         "url_avatar": "https://i.postimg.cc/rs08rjdv/foto-de-perfil-removebg-preview.png",
         "roles": ["Data analyst", "Data engineer","Software developer"]
     },
@@ -113,8 +136,7 @@
             "images": [
                 {
                     "title": "Taller Frontend con React",
-                    "url": "https://i.postimg.cc/BnHr818P/portafolio-Web.png",
-                    "alt": "Taller Frontend con React"
+                    "url": "https://i.postimg.cc/BnHr818P/portafolio-Web.png"
                 }
             ],
             "technologies": ["JavaScript", "React", "CodeSandbox", "GitHub"],
@@ -125,15 +147,14 @@
         {
             "id": "P02",
             "name": "Prediccion de cancer",
-            "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "organization": "Instituto Tecnologico Zacatepec",
             "place": "Tecnologico Nacional de Mexico campus Zacatepec",
             "description": "Es un modelo de aprendizaje automático para predecir la presencia de cáncer en el hígado, la piel, la mama, la vejiga, el glioblastoma y los pulmones",
             "comments": "Proyecto para la materia de Analitica Inteligente de Datos",
             "images": [
                 {
                     "title": "prediccion de cancer",
-                    "url": "https://github.com/LeonelValencia/prediccion-de-cancer-higado-piel-mama-vejiga-glioblastoma-pulmon/assets/103957744/22f17622-c35e-49f6-bb04-bc99c68750a7",
-                    "alt": "prediccion de cancer"
+                    "url": "https://github.com/LeonelValencia/prediccion-de-cancer-higado-piel-mama-vejiga-glioblastoma-pulmon/assets/103957744/22f17622-c35e-49f6-bb04-bc99c68750a7"
                 }
             ],
             "technologies": ["Python", "Sklearn", "Streamlit"],
@@ -144,16 +165,15 @@
         },
         {
             "id": "P03",
-            "name": "clasificador perros y gatos",
-            "organization": "Tecnologico Nacional de Mexico campus Zacatepec",
+            "name": "Clasificador perros y gatos",
+            "organization": "Instituto Tecnologico Zacatepec",
             "place": "Tecnologico Nacional de Mexico campus Zacatepec",
             "description": "Se entrena el modelo de inteligencia artificial. Puede utilizarse en el celular, solo apunta la cámara al perro o gato que quieres clasificar (puede ser una imagen de la computadora, una foto, o uno de verdad)",
             "comments": "Lo hace todo en el explorador utilizando Tensorflow.js.",
             "images": [
                 {
                     "title": "clasificador perros y gatos",
-                    "url": "https://github.com/LeonelValencia/clasificador-perros-gatos/assets/103957744/a947f7f9-0e53-40f7-b68e-67b025ece40c",
-                    "alt": "clasificador perros y gatos"
+                    "url": "https://github.com/LeonelValencia/clasificador-perros-gatos/assets/103957744/a947f7f9-0e53-40f7-b68e-67b025ece40c"
                 }
             ],
             "technologies": ["Python", "Tensorflow"],
@@ -165,15 +185,14 @@
         {
             "id": "P04",
             "name": "RedColab",
-            "organization": "departamento de estudios de posgrado e investigación",
+            "organization": "Departamento de estudios de posgrado e investigación",
             "place": "Instituto Tecnológico de Zacatepec",
-            "description": "Red social para los alumnos del ITZ, en la cual pueden compartir sus proyectos, eventos, noticias, etc. Participe como desarrollador frontend y backend para el servicio de GraphQL,",
+            "description": "Red social para los alumnos del ITZ, en la cual pueden compartir sus proyectos, eventos, noticias, etc. El proyecto es de Gabriel Alarcón, yo solo participe en el desarrollo del backend para el servicio de GraphQL.",
             "comments": "contacto: contacto@redcolab.com",
             "images": [
                 {
                     "title": "RedColab",
-                    "url": "https://i.postimg.cc/FFY2b7Rg/redcolab.png",
-                    "alt": "RedColab"
+                    "url": "https://i.postimg.cc/FFY2b7Rg/redcolab.png"                
                 }
             ],
             "technologies": ["MongoDB", "React", "Material-UI", "GraphQL", "Apollo"],
@@ -191,8 +210,7 @@
             "images": [
                 {
                     "title": "chatBot RegulonDB",
-                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg",
-                    "alt": "chatBot RegulonDB"
+                    "url": "https://i.postimg.cc/rstcv7N6/chatbot-regulondb.jpg"
                 }
             ],
             "technologies": ["Langchain", "Python", "OpenAI", "LLMs"],
@@ -210,14 +228,10 @@
             "images": [
                 {
                     "title": "inventario y punto de venta",
-                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg",
-                    "alt": "invetario y punto de venta"
+                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg"
                 }
             ],
-            "technologies": ["C#", "Flask", "SQL"],
-            "urls":{
-                "web":""
-            }
+            "technologies": ["C#", "Flask", "SQL"]
         },
         {
             "id": "P07",
@@ -229,13 +243,88 @@
             "images": [
                 {
                     "title": "webpage El Gabacho",
-                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg",
-                    "alt": "webpage El Gabacho"
+                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg"
                 }
             ],
             "technologies": ["React", "Flask", "bootstrap"],
             "urls":{
                 "web":"https://autparteselgabacho.com.mx/"
+            }
+        },
+        {
+            "id": "P08",
+            "name": "Despliegue de Modelos de Machine Learning",
+            "description": "Implementación de DVC al proyecto, desarrollo de un pipeline de reentrenamiento, creación de un endpoint con FastAPI y creación de un servicio en la nube para desplegar el modelo.",
+            "images": [
+                {
+                    "title": "MLOps",
+                    "url": "https://ml-ops.org/img/ml-engineering.jpg"
+                }
+            ],
+            "technologies": ["MLOps", "FastAPI", "Google Cloud Platform (GCP)", "DVC"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/intro-deployment-ml"
+            }
+        },
+        {
+            "id": "P09",
+            "name": "Economía Naranja",
+            "description": "Análisis sobre el aporte de economía naranja en PIB en países de Latinoamérica.",
+            "images": [
+                {
+                    "title": "Economia Naranja",
+                    "url": "https://github.com/user-attachments/assets/c0b517f4-a132-4541-bfa2-b4555e30daae"
+                }
+            ],
+            "technologies": ["R", "R Markdown"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/R_economia-naranja",
+                "web":"https://leonelvalencia.github.io/R_economia-naranja/"
+            }
+        },
+        {
+            "id": "P10",
+            "name": "Bike Sales Excel Dashboard",
+            "description": "Análisis y visualización de datos de ventas, limpieza de conjuntos de datos y creación de dashboards interactivos en Excel.",
+            "images": [
+                {
+                    "title": "Bike Sales Excel Dashboard",
+                    "url": "https://private-user-images.githubusercontent.com/103957744/415415076-a8a6bd49-a581-48c7-b4b4-1e598043b181.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3OTU0MTUsIm5iZiI6MTc0Mzc5NTExNSwicGF0aCI6Ii8xMDM5NTc3NDQvNDE1NDE1MDc2LWE4YTZiZDQ5LWE1ODEtNDhjNy1iNGI0LTFlNTk4MDQzYjE4MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNFQxOTMxNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNTg0M2EwMTgxMjA4N2JkZTk4NzVkMGUxNTNhYTFmZjdlM2U1NDc3YmMyMmNlZTU4NWJiOGJjNGY0YzI2ZjM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bc5GAlzZRhyf-HrNpT3B6hypyeBNEN5s-yz4fx54XS8"
+                }
+            ],
+            "technologies": ["Excel", "Power Query", "Power Pivot"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/Bike-Sales-Excel-Dashboard-Project"
+            }
+        },
+        {
+            "id": "P11",
+            "name": "COVID Data Exploration",
+            "description": "Análisis de datos de COVID-19, limpieza de conjuntos de datos y creación de dashboards interactivos en Tableau.",
+            "images": [
+                {
+                    "title": "COVID Data Exploration",
+                    "url": "https://github.com/user-attachments/assets/f7a29b4f-5cba-41a3-b41b-d282f295ca6c"
+                }
+            ],
+            "technologies": ["Tableau","Microsoft SQL Server"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/covid-data-exploration"
+            }
+        },
+        {
+            "id": "P12",
+            "name": "Amazon Data Analysis with Databricks & Snowflake",
+            "description": "Este proyecto demuestra un pipeline de ingeniería de datos end-to-end para analizar los datos de ventas de productos de Amazon mediante AWS S3, Databricks, PySpark y Snowflake. El objetivo es ingerir, procesar, transformar y analizar datos de manera eficiente, aprovechando las herramientas basadas en la nube y las tecnologías de big data.",
+            "images": [
+                {
+                    "title": "Amazon Data Analysis with Databricks & Snowflake",
+                    "url": "https://github.com/kinzorize/End-to-End-Data-Project-Using-Databrick/raw/main/databricks.png"
+                }
+            ],
+            "technologies": ["Databricks", "AWS S3", "Snowflake", "PySpark"],
+            "urls":{
+                "github":"https://github.com/LeonelValencia/Amazon-data-analysis-with-Databricks-Snowflake"
             }
         }
     ],

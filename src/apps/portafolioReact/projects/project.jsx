@@ -104,7 +104,7 @@ export default function Project({projectObject = {}}) {
     return (
         <Card className="project">
             <div className="image-container">
-                <Card.Img src={projectObject.images[0].url} alt={projectObject.images[0].alt} />
+                <Card.Img src={projectObject.images[0].url} alt={projectObject.images[0].title} />
             </div>
             <Row className={`infoProject ${expanded ? 'expanded' : ''}`}>
                 <div className="info-content" ref={contentRef}>

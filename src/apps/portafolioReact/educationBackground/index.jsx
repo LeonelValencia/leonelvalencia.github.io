@@ -70,7 +70,7 @@ Achievement component: It is imported from "./achievement" and is used to render
 */
 import { Container, Row, Col } from 'react-bootstrap';
 import { Achievement } from "./achievement"
-// import './educationBackground.css'
+import './educationBackground.css'
 
 export default function EducationBackground({educations}){
     /**
