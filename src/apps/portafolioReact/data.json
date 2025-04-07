@@ -57,23 +57,26 @@
             "extra":"https://www.coursera.org/account/accomplishments/professional-cert/RQ7J83R99X62"
         }
     ],
-    "contact": [
-        {
-            "type": "url",
-            "label": "Facebook",
-            "url": "https://www.facebook.com/leonel.valencia.3382"
+    "contact": {
+        "linkedin":{
+            "label": "Linkedin",
+            "url": "https://www.linkedin.com/in/valencialeonel"
         },
-        {
-            "type": "url",
+        "github":{
             "label": "GitHub",
             "url": "https://github.com/LeonelValencia"
         },
-        {
-            "type": "url",
-            "label": "Linkedin",
-            "url": "https://www.linkedin.com/in/valencialeonel"
+        "tableau":{
+            "label": "Tableau",
+            "url": "https://public.tableau.com/app/profile/leonel.valencia/vizzes",
+            "icon":"https://images.seeklogo.com/logo-png/38/2/tableau-software-logo-png_seeklogo-386611.png"
+        },
+        "huggingface":{
+            "label": "Hugging Face",
+            "url": "https://huggingface.co/LeonelValencia",
+            "icon":"https://huggingface.co/front/assets/huggingface_logo-noborder.svg"
         }
-    ],
+    },
     "education": [
         {
             "date":"2019-2024",
@@ -123,7 +126,8 @@
     "homePage": {
         "nombre": "Leonel Valencia",
         "url_avatar": "https://i.postimg.cc/rs08rjdv/foto-de-perfil-removebg-preview.png",
-        "roles": ["Data analyst", "Data engineer","Software developer"]
+        "roles": ["Data analyst", "Data engineer","Software developer"],
+        "about": "Recién graduado en Ingeniería de Sistemas Computacionales con experiencia práctica en ingeniería de datos, análisis y desarrollo full-stack. Experto en el diseño de soluciones de datos end-to-end, la creación de API, el desarrollo de interfaces web y la implementación de modelos de aprendizaje automático. Apasionado por la transformación de datos en insights accionables y la optimización de procesos empresariales mediante el uso de herramientas modernas como AWS, Databricks, Spark y Power BI."
     },
     "projects": [
         {
@@ -328,88 +332,66 @@
             }
         }
     ],
-    "skills": {
-        "conocimientos": [
-            {
-                "technology": "Python",
-                "score":5,
-                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
-            },
-            {
-                "technology": "AWS",
-                "score":4,
-                "urlIcon":"https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png"
-            },
-            {
-                "technology": "MongoDB",
-                "score":4,
-                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-mongodb-3629020-3030245.png"
-            },
-            {
-                "technology": "MySQL",
-                "score":5,
-                "urlIcon":"https://images.sftcdn.net/images/t_app-icon-s/p/917c77e8-96d1-11e6-8453-00163ed833e7/3780880766/mysql-com-icon.png"
-            },
-            {
-                "technology": "PostgreSQL",
-                "score":4,
-                "urlIcon":"https://cdn.iconscout.com/icon/free/png-256/free-postgresql-8-1175119.png"
-            },
-            {
-                "technology": "Spark",
-                "score":4,
-                "urlIcon":"https://idroot.us/wp-content/uploads/2018/01/apache-spark-logo-300x160.png"
-            },
-            {
-                "technology": "Databricks",
-                "score":4,
-                "urlIcon":"https://avatars.githubusercontent.com/u/4998052?s=200&v=4"
-            },
-            {
-                "technology": "Airflow",
-                "score":4,
-                "urlIcon":"https://media.zeemly.com/zeemly/product/apache-airflow.png"
-            },
-            {
-                "technology": "Power BI",
-                "score":4,
-                "urlIcon":"https://cdn.freelogovectors.net/wp-content/uploads/2023/11/power-bi-logo-freelogovectors.net_.png"
-            },
-            {
-                "technology": "Tableau",
-                "score":4,
-                "urlIcon":"https://images.seeklogo.com/logo-png/38/2/tableau-software-logo-png_seeklogo-386611.png"
-            },
-            {
-                "technology": "GraphQL",
-                "score":3,
-                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1024px-GraphQL_Logo.svg.png?20161105194737"
-            },
-            {
-                "technology": "C#",
-                "score":4,
-                "urlIcon":"https://bayanbox.ir/view/7076036280111797220/csharp-logo.png"
-            },
-            {
-                "technology": "Java",
-                "score":3,
-                "urlIcon":"https://cdn-icons-png.flaticon.com/512/226/226777.png"
-            },
-            {
-                "technology": "JavaScript",
-                "score":4,
-                "urlIcon":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-            },
-            {   
-                "technology": "React",
-                "score":4,
-                "urlIcon":"https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
-            },
-            {
-                "technology": "Git",
-                "score":4,
-                "urlIcon":"https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png"
-            }
-        ]
-    }
+    "skills": [
+        {
+            "name": "Data engineering",
+            "technologies": [
+                "Python",
+                "Databricks",
+                "Apache Spark",
+                "Airflow",
+                "Big Data",
+                "Data pipelines",
+                "ETL",
+                "SQL/NoSQL",
+                "Data Warehouse",
+                "Hadoop",
+                "AWS",
+                "Snowflake"
+            ]
+        },
+        {
+            "name": "Data analysis",
+            "technologies": [
+                "Python",
+                "R",
+                "Excel",
+                "Power BI",
+                "Tableau",
+                "SQL",
+                "Data visualization",
+                "Data cleaning",
+                "Data wrangling"
+            ]
+        },
+        {
+            "name": "Software development",
+            "technologies": [
+                "Python",
+                "JavaScript",
+                "C#",
+                "Flask",
+                "FastAPI",
+                "React",
+                "GraphQL",
+                "Java",
+                "HTML/CSS",
+                "Git"
+            ]
+        },
+        {
+            "name": "Machine learning & AI",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "PyTorch",
+                "Scikit-learn",
+                "NLP",
+                "Generative AI",
+                "LLM",
+                "Langchain",
+                "RAG"
+            ]
+        }
+    ]
 }

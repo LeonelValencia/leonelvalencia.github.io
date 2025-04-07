@@ -89,10 +89,10 @@ export default function PortafolioReact(){
     return (
         <div className="portafolio">
             <Header links={data.header.links} logo={data.header.logoURl}/>
-            <HomePage aboutMeObject={data.homePage} contactList={data.contact} linkFormContact={data.header.links[4].link}/>
+            <HomePage aboutMeObject={data.homePage} contacts={data.contact} linkFormContact={data.header.links[4].link}/>
             <Experiences experiences={data.experiences}/>
             <EducationBackground educations={data.education}/>
-            <Skills knowledgeList={data.skills.conocimientos}/>
+            <Skills knowledgeList={data.skills}/>
             <Projects projectsList={data.projects}/>
             <Certifications certifications={data.certifications}/>
             <ContactForm />

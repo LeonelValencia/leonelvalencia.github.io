@@ -4,16 +4,18 @@
 .tech {
     text-align: center;
     align-items: center;
-    padding: 20px;
+    background-color: var(--secondary-gray);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
 }
-.tech img{
-    width: 100px;
-    height: 100px;
+.tech li {
+    display: inline-block;
+    color: whitesmoke;
+    padding: 0 0.5rem;
+    font-size: 1.5rem;
 }
-.tech h3 {
-    font-size: 36px;
-}
-.tech .icons {
-    width: 25px;
-    color: #fff903;
+.tech hr {
+    color: var(--primary-blue);
+    border-width: 5px;
 }

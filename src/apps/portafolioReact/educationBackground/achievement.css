@@ -13,7 +13,6 @@ h3, h4 {
 .achievement {
     background-color: var(--secondary-gray);
     display: flex;
-    height: 190px;
     margin: 15px;
     padding: 10px;
     border-radius: 10px;

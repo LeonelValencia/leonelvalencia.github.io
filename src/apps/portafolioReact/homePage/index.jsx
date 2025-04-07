@@ -72,10 +72,10 @@ RegulonDB Team:
 import React, { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFacebook, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import './HomePage.css'
 
-export default function HomePage ({aboutMeObject={},contactList=[],linkFormContact=''}) {
+export default function HomePage ({aboutMeObject={},contacts={},linkFormContact=''}) {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
@@ -95,16 +95,24 @@ export default function HomePage ({aboutMeObject={},contactList=[],linkFormConta
                 <h2>{aboutMeObject.nombre}</h2>
             </div>
             <h3>{aboutMeObject.roles[currentIndex]}</h3>
+            <p>{aboutMeObject.about}</p>
             <div className="socialNetwork">
-                <a href={contactList[0].url}>
-                    <FontAwesomeIcon className='icons' icon={faFacebook} id='facebookIcon'/>
-                </a>
-                <a href={contactList[1].url}>
-                    <FontAwesomeIcon className='icons' icon={faGithub} id='githubIcon'/>
-                </a>
-                <a href={contactList[2].url}>
+                <a href={contacts.linkedin.url}>
                     <FontAwesomeIcon className='icons' icon={faLinkedin} id='linkedinIcon'/>
                 </a>
+                <a href={contacts.github.url}>
+                    <FontAwesomeIcon className='icons' icon={faGithub} id='githubIcon'/>
+                </a>
+                {contacts.tableau &&
+                    <a href={contacts.tableau.url}>
+                        <img src={contacts.tableau.icon} alt="tableau" />
+                    </a>
+                }
+                {contacts.huggingface &&
+                    <a href={contacts.huggingface.url}>
+                        <img src={contacts.huggingface.icon} alt="huggingface" />
+                    </a>
+                }
             </div>
             <a className='btnContact' href={linkFormContact}>Contactame</a>
         </Container>

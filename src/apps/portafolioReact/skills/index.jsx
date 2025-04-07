@@ -78,8 +78,8 @@ export default function Skills({knowledgeList=[]}) {
      * @constant
      */
     const listtechnologies = knowledgeList.map((technology) =>
-        <Col key={technology.technology} xs={6} md={4} lg={2}>
-            <Technology key={technology.technology} technologyObject={technology}/>
+        <Col key={technology.name} xs={12} md={6} lg={6}>
+            <Technology key={technology.name} technologyObject={technology}/>
         </Col>
     )
     return(

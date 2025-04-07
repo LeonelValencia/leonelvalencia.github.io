@@ -1,6 +1,6 @@
 .homePage {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 90px;
 }
 .homePage h2 {
     font-size: 60px;
@@ -9,14 +9,23 @@
 .homePage h3 {
     font-size: 48px;
 }
-.homePage img {
-    height: 230px;
+.homePage p {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.homePage .avatarName img {
+    height: 200px;
 }
 .homePage .socialNetwork a {
     margin: 15px;
+    display: inline-block;
 }
-.homePage .socialNetwork #facebookIcon:hover {
-    color: #4267B2;
+.homePage .socialNetwork img,
+.homePage .socialNetwork .icons {
+    vertical-align: middle;
+}
+.homePage .socialNetwork img {
+    height: 56px;
 }
 .homePage .socialNetwork #githubIcon:hover {
     color: #817f7f;
@@ -25,6 +34,7 @@
     color: #0e76a8;
 }
 .homePage .icons {
+    margin: 0;
     color: white;
     font-size: 60px;
 }
