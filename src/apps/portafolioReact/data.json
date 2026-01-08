@@ -92,8 +92,27 @@
     ],
     "experiences": [
         {
-            "date":"jul/2024 - ene/2025",
-            "position":"Desarrollador Backend",
+            "date":"octubre 2025 - diciembre 2025",
+            "position":"Desarrolador de software",
+            "organization":"Autopartes y Cristales El Gabacho",
+            "responsabilities":[
+                "ñadir más funciones al punto de venta y mejorar el sistema de inventario."
+            ]
+        },
+        {
+            "date":"abril 2025 - octubre 2025",
+            "position":"Servicio de atención al cliente y administrador de inventario",
+            "organization":"Autopartes y Cristales El Gabacho",
+            "responsabilities":[
+                "Atención a clientes proporcionando información de precios y productos de autopartes.",
+                "Apoyo al almacén en la localización y organización de piezas durante periodos de alta demanda.",
+                "Gestión de pedidos a proveedores, control de gastos y seguimiento de cuentas por pagar.",
+                "Actualización de precios, inventario y alta de nuevos productos asegurando la integridad de los datos."
+            ]
+        },
+        {
+            "date":"julio 2024 - enero 2025",
+            "position":"Desarrollador Full Stack",
             "organization":"Autopartes y Cristales El Gabacho",
             "responsabilities":[
                 "Desarrollo de un sistema de inventario y punto de venta",
@@ -102,7 +121,7 @@
             ]
         },
         {
-            "date":"ene/2024 - jul/2024",
+            "date":"enero 2024 - julio 2024",
             "position":"Practicante en el área de desarrollo de software",
             "organization":"Centro Ciencias Genomicas UNAM",
             "responsabilities":[
@@ -232,7 +251,7 @@
             "images": [
                 {
                     "title": "inventario y punto de venta",
-                    "url": "https://i.postimg.cc/J7ykrnT8/inventario-gabacho.jpg"
+                    "url": "https://i.postimg.cc/6qRyp84b/inventario_el_gabacho.jpg"
                 }
             ],
             "technologies": ["C#", "Flask", "SQL"]
@@ -247,7 +266,7 @@
             "images": [
                 {
                     "title": "webpage El Gabacho",
-                    "url": "https://i.postimg.cc/7b8DDXK5/webpage-gabacho.jpg"
+                    "url": "https://i.postimg.cc/VNGSGQcK/webpage-El-Gabacho.jpg"
                 }
             ],
             "technologies": ["React", "Flask", "bootstrap"],
@@ -293,7 +312,7 @@
             "images": [
                 {
                     "title": "Bike Sales Excel Dashboard",
-                    "url": "https://private-user-images.githubusercontent.com/103957744/415415076-a8a6bd49-a581-48c7-b4b4-1e598043b181.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM3OTU0MTUsIm5iZiI6MTc0Mzc5NTExNSwicGF0aCI6Ii8xMDM5NTc3NDQvNDE1NDE1MDc2LWE4YTZiZDQ5LWE1ODEtNDhjNy1iNGI0LTFlNTk4MDQzYjE4MS5naWY_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDA0JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwNFQxOTMxNTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNTg0M2EwMTgxMjA4N2JkZTk4NzVkMGUxNTNhYTFmZjdlM2U1NDc3YmMyMmNlZTU4NWJiOGJjNGY0YzI2ZjM1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.bc5GAlzZRhyf-HrNpT3B6hypyeBNEN5s-yz4fx54XS8"
+                    "url": "https://i.postimg.cc/4xWjnBg0/bike_sales_excel_dashboard.gif"
                 }
             ],
             "technologies": ["Excel", "Power Query", "Power Pivot"],
